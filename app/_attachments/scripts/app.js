@@ -22,7 +22,7 @@ angular.module('parkingApp', ['ngRoute'])
 	    		  .then(function(response) {
 	    		      var tmpStr = response.data;
 	  
-	    		      $scope.color = tmpStr[0].filmography.actor;
+	    		      $scope.movies = tmpStr[0].filmography.actor;
 	    		  });
 	    	});
     })
